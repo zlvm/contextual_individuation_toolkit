@@ -85,3 +85,7 @@ count, confirm the category is not near-empty, only then trust the panel).
 Licensed under [CC BY 4.0](LICENSE) - free to use, share, and adapt,
 including for auditing the tool against the paper it accompanies, with
 attribution.
+
+## DOI
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22213867.svg)](https://doi.org/10.5281/zenodo.22213867)
+
