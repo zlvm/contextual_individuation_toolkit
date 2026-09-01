@@ -1,0 +1,58 @@
+abstract: "<p>First stable release, archived for citation and auditing alongside its\n\
+  companion manuscript, <em>Technical Manual for a Toolkit for Measuring\nContextual\
+  \ Individuation in Transformer Language Models</em>.</p>\n<h2>Contents</h2>\n<ul>\n\
+  <li><code>contextual_individuation.ipynb</code> \u2014 the full pipeline: bridge-form\n\
+  declaration, Wikipedia corpus acquisition, occurrence localization,\nlayer-wise\
+  \ representation extraction, pairwise silhouette measurement,\nand paired PCA visualization.</li>\n\
+  <li><code>requirements.txt</code> \u2014 pinned dependency versions for local reproducibility.</li>\n\
+  <li><code>.env.example</code> \u2014 template for the contact-email variable used\
+  \ in the\nWikipedia API <code>User-Agent</code> header.</li>\n</ul>\n<h2>License</h2>\n\
+  <p>CC BY 4.0 \u2014 free to use, share, and adapt, including for auditing this\n\
+  tool against the paper it accompanies, with attribution.</p>\n<h2>Citation</h2>\n\
+  <p>Please cite this archived release (not the manuscript alone) when\nreporting\
+  \ results produced with the toolkit; cite the companion manuscript\nwhen referring\
+  \ to its design rationale.</p>"
+authors:
+- affiliation: Universidade Estadual de Campinas (UNICAMP)
+  family-names: "Ver\xE7osa Marques"
+  given-names: "Jos\xE9 Luciano"
+  orcid: 0000-0002-3191-0846
+- affiliation: Universidade Estadual de Campinas (UNICAMP)
+  family-names: Heitmann
+  given-names: Frederico Jorge
+  orcid: 0009-0006-5828-8301
+- affiliation: Universidade Estadual de Campinas (UNICAMP)
+  family-names: Perez
+  given-names: Daniel Omar
+  orcid: 0000-0002-5965-3490
+- affiliation: Universidade Estadual de Campinas (UNICAMP)
+  family-names: Barros
+  given-names: "T\xE1rcio Andr\xE9 dos Santos"
+  orcid: 0000-0001-9413-1279
+- name: Universidade Estadual de Campinas (UNICAMP)
+- name: Center for Electric Mobility Research (CEMOBE) / Power Electronics Laboratories
+    (LEPO)
+- name: "Centro de Estudos de Energia e Petr\xF3leo (CEPETRO)"
+- name: Center for Logic, Epistemology and History of Science (CLE)
+cff-version: 1.2.0
+date-released: '2026-08-31'
+doi: 10.5281/zenodo.22213867
+identifiers:
+- type: swh
+  value: swh:1:dir:15fdb8c9a2b827992385eb88480396ab2659e70a;origin=https://doi.org/10.5281/zenodo.22213866;visit=swh:1:snp:a26ffaa613d8c832ec2356ac149fd6e9279686d1;anchor=swh:1:rel:fab387707a439be72954cdc44ff1c5d3f1bcb834;path=zlvm-contextual_individuation_toolkit-f11a24e
+keywords:
+- euroscivoc:297
+- Artificial intelligence
+- euroscivoc:933
+- Machine learning
+- euroscivoc:939
+- Natural language processing
+- euroscivoc:587
+- Linguistics
+- euroscivoc:941
+- Data processing
+license:
+- cc-by-4.0
+message: If you use this work, please cite it using the metadata from this file.
+title: Toolkit for Measuring Contextual Individuation in Transformer Language Models
+version: v1.0.0
