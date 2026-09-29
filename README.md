@@ -5,8 +5,9 @@ even when the word itself is held fixed?
 
 The full design rationale for every choice this toolkit makes is documented
 in its companion manuscript, *Technical Manual for a Toolkit for Measuring
-Contextual Individuation in Transformer Language Models* [TODO: add arXiv
-link once posted].
+Contextual Individuation in Transformer Language Models.
+
+ [![arXiv](https://img.shields.io/badge/arXiv-2609.05333-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.05333)
 
 A **bridge form** is a single written word (grapheme) that occurs, unchanged,
 across two or more subject areas with a different sense each time - e.g.
@@ -33,6 +34,9 @@ All of the analysis lives in a single notebook,
    (cosine distance), layer by layer, one subject-area pair at a time.
 6. Visualise the same occurrences with a shared 2D PCA projection, at the
    first and last layer, alongside the silhouette curves.
+7. Collect, per bridge form and subject-area pair, the peak pairwise
+   silhouette (and a permutation-based null at that layer) into a results
+   table, exported as `results_table.csv` and `results_table.tex`.
 
 The notebook itself documents every step and every design decision in
 markdown cells immediately above the code that implements it - read it top
@@ -87,5 +91,5 @@ including for auditing the tool against the paper it accompanies, with
 attribution.
 
 ## DOI
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22213867.svg)](https://doi.org/10.5281/zenodo.22213867)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22213867.svg)](https://doi.org/10.5281/zenodo.22213867)
